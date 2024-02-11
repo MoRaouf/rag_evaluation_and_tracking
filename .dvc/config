@@ -2,3 +2,6 @@
     remote = origin
 ['remote "origin"']
     url = https://dagshub.com/api/v1/repo-buckets/s3/MoRaouf
+['remote "dagshub-origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/MoRaouf/rag_evaluation_and_tracking.s3
